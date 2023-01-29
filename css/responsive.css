@@ -1,0 +1,574 @@
+@media only screen and (max-width: 1280px){}
+@media only screen and (max-width: 1024px){
+	.case-study-list .section .text h3{font-size: 22px;}
+	.case-study-details-banner .inner-banner-text{top: 20%;}
+	.case-study-details-banner .inner-banner-text h2{font-size: 24px;}
+	.overview ul li{float: left;}
+	.case-study-details .section{position: relative;z-index: 1;}
+}
+@media only screen and (max-width: 991px){
+	body{
+		overflow: inherit !important;
+	}
+	.nicescroll-rails, .nicescroll-cursors{
+		display: none !important;
+	}
+	.our-client{overflow-y: hidden;}
+	.our-client #jssor_1{width: 98% !important;}
+	.testomonial{overflow-y: hidden;}
+	.industry .owl-nav{overflow:hidden;}
+
+	/*mega menu*/
+	.megaMenu{overflow-y: scroll; background:#fff; overflow-x: hidden;}
+	.megaMenu ul li a{font-size: 22px; margin-bottom: 5px;}
+	.megaMenu ul li a img{width: 17px;}
+	.megaMenu .megaMenu-right{width: 58%;}
+	.megaMenu .headquater{display: none;}
+	.megaMenu.added .container-fluid, .megaMenu.added .container-fluid .menues, .megaMenu .megaMenu-left{height: 100%;}
+	.megaMenu-header .logo img{width: 40px;}
+	.header-right{
+		text-align: right;
+	}
+	header .header-right .header-contact-info{
+		width: 47%;
+		float: left;
+		text-align: left;
+	}
+	header .header-right .header-contact-info a{
+		width: 100%;
+	}
+	.scrollHeader .logo .after-scroll{height: auto;}
+	.banner{
+		padding-bottom: 0%;
+	}
+	.banner .banner-text h1{
+		font-size: 33px;
+		margin-bottom: 0px;
+	}
+	.banner .banner-text h1 br{
+		display: none;
+	}
+	.banner-image{
+		margin-top: 30px;
+	}
+	.banner-text{padding: 6% 0%;}
+	.banner .banner-text .get-started{margin-top: 36px;}
+
+	.industry .owl-nav{width:100%; left: 0px;}
+
+	.testomonial h2, .industry h2, .location .location-text h2, .services .services-text h2, .free-quote .free-quote-text h2{font-size: 29px;}
+	.industry .heading, .testomonial h2{margin-bottom: 30px;}
+	.industry .section{margin-bottom: 15px;}
+	.services .services-text h2{margin-bottom: 17px;}
+	.location .location-text h2{margin-bottom: 5px;}
+	.location .location-text h2 br{display: none;}
+	.location-text{margin-bottom: 30px;}
+
+	.services .services-text p, .key-services .heading p, .inner-banner p, .recent-post .heading p{font-size: 19px;}
+	.services .services-text a{margin-top: 30px; padding: 5px 30px 9px;}
+	.services.two{padding-bottom: 30px;}
+	.inner-services-banner-bg{top: -40px; left: -80px; width: 360px;}
+	
+	.testomonial .tes-section{transform: scale(1);}
+	.testomonial .tes-section{width: 68%; margin-top: 21px; }
+	.tes-section.two{flex-direction: row-reverse;}
+	.tes-section.three{flex-direction: row-reverse;}
+	.testomonial .tes-section.one{margin-top: 70px;}
+	.testomonial .tes-section.two .comment::after{left:inherit; right: -30px; transform: rotateY(160deg)}
+	.testomonial .tes-section.two .tes-image{margin-left: 20px;}
+	.testomonial .tes-section .tes-image{height: 88px;}
+	
+	@keyframes rounded{
+	    0%{transform:rotate(0deg)}
+	    100%{transform:rotate(0deg)}
+	  }
+	  @keyframes threes{
+	    0%{transform: scale(1); opacity:1;}
+	    100%{transform: scale(1); opacity:1;}
+	  }
+  .location .row{flex-direction: column-reverse;}
+	.location .location-text a{margin-top: 40px;}
+
+	footer .certified-logo, .social{text-align: center;}
+  	footer .certified-logo li{width: auto;}
+  	footer h3{margin-bottom: 21px;}
+	footer .certified-logo li img{max-width: 100%;}
+	footer .certified-logo li a{width:90%;}
+
+  /*contact*/
+  .contact-row a{word-break: break-all;}
+  .inner-banner-text h1{font-size: 30px; margin-bottom: 0px;}
+  .inner-banner-text h1 br{display: none;}
+  .inner-banner{min-height: 243px;}
+  .lb-heading{font-size: 27px;}
+  .group-card .row .col-lg-4:last-child{margin-top: 50px;}
+  .ptb-70{padding: 50px 0px;}
+  .country-img{display: none;}
+  .contact-detail{padding: 30px;}
+
+  /*about us*/
+  .experience-platform .e-p-l-section{width: 100%; margin-bottom: 30px;}
+  /*.experience-platform .one{margin: 0px;}*/
+  .experience-platform .two{position: inherit; top:0px; margin-left :0px !important; left: 0px; }
+  .experience-platform .three{margin-top: 0%}
+  .experience-platform .e-p-left::after, .experience-platform .e-p-left::before{display: none;}
+
+  .experience-platform .e-p-right h2, .platform .platform-text h2, .key-services .heading h2, .our-team .heading h2, .inner-industry .heading h2, .quick-contact .heading h2, .overview h2, .seo-like h2, .crowd h2, .integrate-tool .heading h2, .work h2, .packages h2, .services-heading h2, .services-heading h1, .seo-like .heading h2, .desktop-view .heading h2, .tab-view .heading h2, .mobile-view .heading h2, .offer .heading h2, .case-study h2, .single-testimonail h2, .portfolio .heading h2{font-size: 27px; text-align: center;}
+
+  .experience-platform .e-p-right h2 br, .platform .platform-text h2 br{display: none;}
+  .experience-platform .e-p-right p{text-align: center; font-size: 16px;}
+  .platform{padding: 80px 0px 60px;}
+  .platform ul li{width: 33%; display: inline-block; float: left;}
+  /*.platform ul li a{flex-wrap: wrap;}*/
+  .platform ul li h3{font-size: 15px;}
+  .platform ul li img{margin-right: 0px; flex-basis: auto; margin-right: 10px; width: 60px;}
+  /*.platform ul li img{width: 40px; height: 40px;}*/
+  .platform-text{text-align: center;}
+  .platform ul li p{display: none;}
+  .platform ul li a{min-height: 100px; width: 95%;}
+  .platform ul li .activated{background-color: #27a9e1;}
+  .platform ul li .activated h3{color: #fff;}
+  .key-services .heading p{text-align: center; font-size: 18px;}
+  .ceo h2{font-size: 33px;}
+  .ceo span{font-size: 22px; margin-bottom: 11px;}
+  .ceo p{font-size: 19px;}
+
+  /*industry*/
+  .inner-banner a{margin-top: 16px;}
+  .overview h2{margin-bottom: 20px;}
+
+  /*FAQ*/
+  .free-quote .free-quote-text p{width: 100%;}
+  .free-quote .free-quote-text{margin-bottom: 30px;}
+
+  /*sercives*/
+  .services-banner.inner-banner .inner-banner-bg{
+  	top:90px;
+  }
+  .seo-like .section{padding: 0px 15px; width: 94%; display: flex;}
+  .seo-like .container{max-width: 100%;}
+  .crowd .section .heading h3{font-size: 18px; }
+  .work{padding: 40px 0px;}
+  .seo-like .section h3{font-size: 16px;}
+  .packages .choose-plan, .packages .heading{min-height: auto; position: relative;}
+  .packages .heading{margin-bottom: 14px;}
+  .packages .choose-plan h3{width: 100%; padding-left: 0px; font-size: 24px; padding:10px 0px;}
+  .packages .choose-plan h3 br{ display: none; }
+  .packages .essential-btn{width: 23%;}
+  .packages .pricing-left{margin-top: 28.7%;}
+  .packages-holder .pricing-right{max-width: 100%;}
+  .packages-holder.slow .pricing-right{max-width: 75%;}
+  .packages-holder .pricing-left{display: none;}
+  .packages-holder.slow .pricing-left{display: block;}
+  .packages .container{max-width: 98%;}
+  .packages .essential p, .packages .col-lg-3 ul li p{padding-left: 5px}
+  .packages .heading .pricing h2{font-size: 28px;}
+  .packages .heading a{margin-top: 14px;}
+  .packages .heading .pricing p{font-size: 12px;}
+  .packages .heading .pricing{margin-top:14px;}
+  .packages .packages-holder{position: inherit;}
+  .packages .packages-holder.slow .rows{min-width: 950px; }
+  .packages  .packages-holder{overflow-y: hidden; overflow-x: scroll;}
+  .full-content .list-services li{width: 48%; }
+  .full-content .list-services li:nth-child(3n){margin-right: 15px;}
+  .full-content .list-services li:nth-child(2n){margin-right: 0px;}
+  .quate-section .row div{text-align: center; width: 100%;}
+  .quate-section a{margin-top: 20px;}
+  .packages .mobile{display: block; font-size: 14px;}
+  .list-column{height: 66px;}
+  .list-column.blank{display: none;}
+  .packages-list-small-heading h5{position: inherit;}
+  .per-section{top:0px;}
+  .list-column{height: 66px;}
+
+  /*industry demo view*/
+  .tab-view .owl-carousel{width: 100%;}
+  .tab-view .section{padding: 47px 28px 80px 17px;}
+  .tab-view .section .image{max-height: 372px;}
+  .tab-view .owl-controls .owl-nav{display: none;}
+  .tab-view .owl-dots{display: flex !important;}
+  .mobile-view .owl-carousel{width: 80%;}
+  .mobile-view .owl-controls .owl-nav{display: none;}
+  .mobile-view .owl-dots{display: flex !important;}
+  .mobile-view .section .image{max-height: 483px; border-radius: 29px;}
+
+  /*animation*/
+	.megaMenu ul li a{
+		animation: sss 0.5s linear;
+        animation-delay: 0.2s;
+        overflow: hidden;
+        transform: translateY(60px);
+        animation-fill-mode:forwards;
+        animation-timing-function:ease-out;
+	}
+	@keyframes sss{
+    0%{
+      transform: translateY(20px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+	/*career*/
+	.single-testimonail .customer-happy{margin-top: 30px;}
+	.careers{padding-top: 0px;}
+
+	/*404 pages*/
+	.images404 .body{width:36%;}
+	.images404 .body{margin-top: 50px;}
+	.images404 .one{left: 31%; top: -81px;}
+	.images404 .two{right: 29%; top: -81px;}
+	.images404::before, .images404::after{display: none;}
+
+	/*case study*/
+	.inner-banner{height: 244px;}
+	.case-study-list{padding: 60px 0px 0px;}
+	.case-study-list .section .image{border-radius: 20px;}
+
+	/*case study details*/
+	.get-connect h3{font-size: 24px;}
+	.get-connect a{display: table; margin:0 auto; margin-top: 40px;}
+	.result .image{border-radius: 40px; margin-bottom: 20px;}
+	.result .result-text{padding-left: 0px;}
+	.overview a{margin-bottom: 30px;}
+}
+
+@media only screen and (max-width: 767px){
+
+	.scrollHeader .logo .after-scroll img{width: auto !important;}
+
+	/*mega menu*/
+	.megaMenu .megaMenu-right{padding: 0px 10px;}
+
+	header .header-right .header-contact-info{display: none;}
+	header .logo img{width: 48px; height: auto;}
+	.banner .banner-text h1{font-size: 30px; }
+	.banner .banner-text p{font-size: 22px;}
+	.services.two .row{
+		flex-direction: column-reverse;
+	}
+	.services .services-image{
+		margin-bottom: 30px;
+	}
+	.testomonial .tes-section{width: 92%;}
+
+	.testomonial h2, .industry h2, .location .location-text h2, .services .services-text h2, .overview h2, .free-quote .free-quote-text h2, .services-heading h2, .services-heading h1, .seo-like .heading h2, .desktop-view .heading h2, .offer .heading h2, .case-study h2, .single-testimonail h2, .portfolio .heading h2{font-size: 26px;}
+	.testomonial .view-more{margin-top:40px;}
+	.testomonial .testomonialthree{margin-left: 0px;}
+	.testomonial .tes-section .tes-image{flex: 0 0 19%;}
+	footer{padding: 30px 0px 0px;}
+	footer .certified-logo li{width: 24.5%}
+	.services .services-text.second{padding-left: 0px;}
+
+	/*contact*/
+	.inner-banner-text h1{font-size: 27px; margin-bottom: 0px;}
+	.inner-banner-text{padding: 5% 0%;}
+	.inner-banner h1 br, .inner-banner h2 br{display: none;}
+	.group-card .row .col-lg-4:nth-child(2){margin-top: 50px;}
+	.address{width:100%;}
+	.address:last-child{margin-top: 10px;}
+	.address a img{width:24px;}
+	.address a{margin-right: 8px;}
+	.address a:last-child{margin-right: 0px;}
+	.contact-detail h3{font-size: 18px;}
+	.card-col{margin-bottom: 15px;}
+
+	/*industry details*/
+	.case-study .section{flex-wrap: wrap;}
+	.case-study .section .image{flex: 0 0 100%;}
+	/*.owl-carousel .owl-item img{width: 100%;}*/
+
+	/*FAQ*/
+	.faq-section #faqs .card .card-header button{font-size:20px;}
+	.faq-section #faqs .card .card-header button
+
+	/*industry demo view*/
+	.tab-view .section{padding: 33px 20px 83px 12px;}
+	.tab-view .section .image{max-height: 270px;}
+	.mobile-view .section .image{max-height: 345px; border-radius: 17px;}
+
+	/*portfolio*/
+	.portfolio .button-group button{text-transform: capitalize;}
+	
+	.pages404 h1{font-size: 40px;}
+	.images404 .one{left: 31%; top: -52px;}
+	.images404 .two{right: 29%; top: -52px;}
+	.nav.nav-tabs a{text-transform: capitalize; font-size: 12px;}
+	.grid li{width: 48% !important;}
+	.grid li:nth-child(2n+2){margin-right: 0px !important;}
+
+	/*blog*/
+	.blog-list .blog-right{margin-top:6%;}
+	.blog .categories, .blog .popular-post, .blog .facebook-feed, .blog .newsletter{width:100%;}
+	._2p3a{width: 100% !important;}
+	.pagination{justify-content: center;}
+
+	/*case study*/
+	.case-study-list .section{width: 80%;}
+	.case-study-list .section .text h3{font-size: 32px;}
+
+	/*case study details*/
+	.case-study-details-banner{min-height: auto; height: auto; background: linear-gradient(white, white); border-bottom: 1px solid #f1f1f1;}
+	.case-study-details-banner .inner-banner-text{position: relative; top:0%;}
+	.case-study-details-banner .inner-banner-text h2{width: 100%;}
+	.overview{padding: 30px 0px;}
+	.case-study-details .section{margin-bottom: 30px; min-height: auto;}
+	.case-study-details{padding: 30px 0px;}
+	.overview ul li p{font-size:18px; font-family: 'nexaBold';}
+	/*.overview ul li span img{width: 28px;}*/
+	.client-review .section.comment{text-align: center; margin-bottom: 0px;}
+	.client-review .image{margin:0 auto; margin-top: -16%; margin-bottom: 10%; }
+
+	/*white paper*/
+	.white-paper-overview .white-paper-overview-text{padding-right: 15px;}
+
+}
+@media only screen and (max-width: 575px){
+	
+	/*mega menu*/
+
+
+	.megaMenu .megaMenu-right{position: relative; right:none; border-left: 0px; width: 100%;}
+	#home{display: none;}
+	.megaMenu.added .container-fluid, .megaMenu.added .container-fluid .menues, .megaMenu .megaMenu-left{height: auto;}
+	.megaMenu .megaMenu-right{float: none; background: #fff; border-radius: 5px; padding: 0px 0px; box-shadow: 0px 0px 10px #f2f2f2; margin-bottom: 15px;}
+	.megaMenu ul li{text-align: center; position: relative;}
+	.megaMenu ul li a{width: 100%;}
+	.megaMenu ul li a img{position: absolute; right: 120px; top:8px;}
+	.megaMenu .card .card-header{width: 100%;}
+	.megaMenu .card .card-header button, .megaMenu .card .card-header a{text-align: center;}
+	.activated img{ transform: rotate(90deg); transition: 0.5s;}
+	.megaMenu-right .sections ul li a{font-family: 'Lato', sans-serif; font-size: 17px; margin-bottom: 0px; padding:5px 0px;}
+	#corporate .sections ul li{border-bottom: 1px solid #f1f1f1;}
+
+	.industry{
+		padding: 69px 0px 40px;
+	}
+	.testomonial .tes-section .tes-image{flex-basis: 90px;}
+	.location .total-location .location-section{flex-basis: 100%; min-height: auto;}
+	.location .total-location .location-section:nth-child(1), .location .total-location .location-section:nth-child(3){border-right: 0px}
+	.location .total-location .location-section:nth-child(3){border-bottom: 1px solid #d7d7d7; }
+	
+	footer .certified-logo li{width:23.5%;}
+	.owl-carousel .owl-item{text-align: center;}
+	.industry .item .section{width: 80%; margin:0 auto;}
+	.industry .item .section .icon-section{text-align: center;}
+	.industry .item .section .bg-svg{left: 0px; right: 0px; margin:0 auto;}
+	.owl-carousel .owl-item img{margin: 0 auto;}
+	.industry .item .section .animation-bg{left: 0px; right: 0px; margin:0 auto;}
+	.industry .owl-controls{display: block;}
+
+	/*contact*/
+	.lb-heading{font-size: 26px;}
+	.single-card{margin-bottom: 0px;}
+
+	/*about us*/
+	.experience-platform .e-p-right h2, .platform .platform-text h2, .key-services .heading h2, .our-team .heading h2, .free-quote .free-quote-text h2, .services-heading h2, .services-heading h1, .seo-like .heading h2, .offer .heading h2, .case-study h2, .single-testimonail h2, .portfolio .heading h2{font-size: 23px; text-align: center;}
+	experience-platform .e-p-right h2 br, .platform .platform-text h2 br, .key-services .heading h2 br, .our-team .heading h2 br, .free-quote .free-quote-text h2 br{display: none;}
+
+	.platform ul li h3{font-size:14px; font-weight: 400;}
+	.platform .platform-text .video img{max-width: 100%;}
+	.experience-platform .e-p-l-section{width:70%; margin:0 auto; margin-bottom: 30px;}
+	/*industry demo view*/
+	.desktop-view .image{max-height: 240px;}
+	.offer .card{padding-left: 15px;}
+	.tab-view .section{padding: 29px 19px 80px 11px;}
+	.tab-view .section .image{max-height: 236px;}
+	.mobile-view .section{padding: 7px 9px 20px 8px;}
+	.mobile-view .section .image{max-height: 298px;}
+
+	/*Faq*/
+	.faq-section #faqs .card .card-header button{padding-right: 35px; color: #27a9e1; font-size: 19px;}
+
+
+	/*blog*/
+	.blog .latest-post .section .text h3{font-size: 20px;}
+	
+	/*white paper*/
+	.white-paper-list .section .text{height: 100%; padding: 15px}
+	.white-paper-list .section .text h3, .white-paper-list .section .view-page{opacity: 1}
+	.white-paper-list .section{margin-bottom: 15px;}
+	.case-study-details-banner .inner-banner-text h2{width: 100%; font-size: 24px;
+	}
+	.white-paper-banner{min-height: inherit; height: inherit;}
+	.case-study-details-banner .inner-banner-text{position: absolute;}
+	.white-paper-overview-text h3{font-size: 18px;}
+
+	/*case study*/
+	.case-study-list .section .image img{width: 100%;}
+	.case-study-list .section .img .view-page{bottom: 50px;
+opacity: 1;}
+.case-study-list .section .img .view-page::after{width: 100%;}
+.case-study-list .section .img .image::after{height: 100%;
+-webkit-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+opacity: 1;}
+
+}
+@media only screen and (max-width: 480px){
+	.scrollHeader .logo .after-scroll{width: 130px; }
+	.scrollHeader .logo .after-scroll a{width: 130px;}
+	header .header-right .enquery a{font-size: 13px;}
+	header .header-right .menu{margin-right: 5px;}
+	.megaMenu ul li a img{right: 70px;}
+
+	p br{display: none;}
+	.online{display: none;}
+	/*index*/
+	.banner .banner-text h1{font-size: 24px;}
+	.inner-banner-text h1{font-size: 24px;}
+	.inner-banner-text p{font-size: 16px;}
+	.testomonial h2, .industry h2, .location .location-text h2, .services .services-text h2, .free-quote .free-quote-text h2, .services-heading h2, .services-heading h2, .seo-like .heading h2, .quate-section h2, .offer .heading h2, .case-study h2, .single-testimonail h2, .portfolio .heading h2{font-size:24px;}
+
+	.testomonial h2 br, .industry h2 br, .location .location-text h2 br, .services .services-text h2 br, .free-quote .free-quote-text h2 br, .services-heading h2 br, .services-heading h2 br, .seo-like .heading h2, .quate-section h2 br, .offer .heading h2 br, .case-study h2 br, .single-testimonail h2 br, .portfolio .heading h2 br{display: none;}
+	.testomonial .tes-section .tes-image{display: none;}
+	.banner .banner-text p{font-size:18px;}
+	.testomonial .tes-section{margin-top: 0px;}
+	.testomonial .testomonial-bg{display: none;}
+	.testomonial .tes-section.one{margin-top: 0px;}
+	.comment{margin-top: 0px; margin-bottom: 20px;}
+	.industry .section a{text-align: center;}
+	.industry .section a svg{right:-17px; margin:0 auto; width: 72px;}
+	.our-client{padding: 20px 0px;}
+	.our-client .items{
+		width: 80px !important;
+		height: auto !important
+	}
+	.our-client img{
+		width: 100% !important;
+		height: auto !important
+		max-width: 100%;
+	}
+	/*footer*/
+	footer .copyright{margin-top: 0px;}
+	footer h3{font-size:16px;}
+	footer ul li a{font-size: 14px; margin-bottom: 14px;}
+	footer .col-lg-3.col-md-12.col-sm-12.col-12.pr-0{
+		padding-left: 0px;
+	}
+	/*contact*/
+	.contact-detail{text-align: center;}
+
+	/*about us*/
+	/*.platform ul li{width: 100%;}*/
+	.experience-platform{padding: 60px 0px 30px;}
+	.platform{padding: 49px 0px 60px;}
+	.platform ul li img{display: none;}
+	.platform ul li:last-child{margin-bottom: 10px;}
+	.platform ul li a{min-height: 60px; text-align: center; padding: 10px; justify-content: center;}
+	.platform ul li a h3{margin-bottom: 0px; text-transform: capitalize;}
+	.key-services .heading p, .ceo p{font-size:16px;}
+
+	/*services*/
+	.full-content .list-services li{width: 100%;}
+	.quate-section p{font-size: 15px;}
+	.inner-services-banner-bg{width:100%;}
+
+	/*Faq*/
+	.faq-section #faqs .card .card-header button{font-size: 19px;}
+
+	/*industry*/
+	.offer button{
+		font-size: 17px;
+		color: #27a9e1;
+		font-weight: 400;
+	}
+	.tab-view .section .image{max-height: 405px;}
+	.mobile-view .section .image{max-height: 505px;}
+
+	.pages404 h3{font-size: 19px;}
+	.images404 .one{top: -44px}
+	.images404 .two{top: -44px}
+
+
+	/*blog*/
+	.blog .heading h2{flex: 0 0 100%; text-align: center; margin-bottom: 16px;}
+	.blog .heading .search{flex: 0 0 100%}
+	.blog .heading .search input[type="submit"]{float: right;}
+
+	/*case study*/
+	.case-study-list .section{width: 90%;}
+
+	/*case study details*/
+	.case-study-details-banner .inner-banner-text h2{font-size: 18px;}
+	.get-connect h3{font-size: 18px;}
+	.overview ul li p{font-family: 'nexaLight';}
+}
+@media only screen and (max-width: 360px){
+
+	header .header-right .enquery a{font-size: 12px; padding: 6px 14px 7px 14px;}
+	.scrollHeader .logo .after-scroll{width: 108px;}
+	.banner .one{display: none;}
+	.banner .banner-text span{font-size: 24px; }
+	.banner .banner-text h1{padding: 0px 10px}
+	.banner .banner-text .get-started, .banner .banner-text .contact-us{padding: 9px 30px}
+	.testomonial h2 br, .industry h2 br, .location .location-text h2 br, .services .services-text h2 br, .free-quote .free-quote-text h2 br, .services-heading h2, .seo-like .heading h2 br, .quate-section h2 br, .offer .heading h2 br, .case-study h2, .single-testimonail h2 br, .portfolio .heading h2 br{
+		display: none;
+	}
+	.testomonial{
+		overflow-y: initial;
+	}
+	body {
+	    overflow: hidden !important;
+	}
+	.experience-platform .e-p-right h2, .platform .platform-text h2, .key-services .heading h2, .our-team .heading h2, .inner-industry .heading h2, .quick-contact .heading h2, .overview h2, .seo-like h2, .crowd h2, .integrate-tool .heading h2, .work h2, .packages h2, .services-heading h2, .seo-like .heading h2, .desktop-view .heading h2, .tab-view .heading h2, .mobile-view .heading h2, .offer .heading h2, .case-study h2, .single-testimonail h2, .portfolio .heading h2, .case-study .section h3{
+		font-size: 22px;
+	}
+	header .header-right .menu{margin-right: 6px;}
+	header .header-right .menu a img{
+		width: 28px;
+		height: 34px;
+	}
+	.scrollHeader .logo .after-scroll{
+		width: 110px;
+		max-width: inherit;
+	}
+	footer .related-links{
+		flex: 50%;
+		max-width: 50%;
+	}
+	footer .expertise{
+		flex: 50%;
+		max-width: 50%;
+	}
+	footer .company{
+		flex: 100%;
+		max-width: 100%;
+	}
+	footer .company h3{
+		text-align: center;
+	}
+	footer .company ul{
+		text-align: center;
+	}
+	footer .company li{
+		display: inline-block;
+	}
+	footer .company li a{
+		padding: 0px 10px;
+		margin-bottom: 0px;
+	}
+	footer .certified-logo li{width: 29.5%;}
+	footer .certified-logo li:nth-child(3n+3) {margin-right: 12px;}
+	.single-testimonail{padding: 30px 0px;}
+	.single-testimonail .customer-happy{min-height: 170px;}
+	.single-testimonail .customer-happy h2{text-align: left;}
+
+
+	.our-team .our-team-slider .imagesss img, .our-team .our-team-slider .imagesss img{max-width: 100%;}
+	.our-team .our-team-slider .imagesss:nth-child(2){
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	.our-team .our-team-slider .imagesss .hover{-webkit-background-size: 100% auto;
+	background-size: 100% auto;}
+	.our-team .our-team-slider .imagesss:nth-child(2) .hover{
+		right: 0px;
+	}
+	.our-client{padding: 20px 0px;}
+}
+@media only screen and (max-width: 320px){
+	.banner .banner-text .get-started, .banner .banner-text .contact-us{padding: 9px 26px}
+
+}
